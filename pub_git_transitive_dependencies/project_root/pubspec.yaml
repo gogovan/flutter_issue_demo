@@ -44,6 +44,21 @@ dependencies:
     git:
       url: https://github.com/gogovan/flutter_issue_demo
       path: pub_git_transitive_dependencies/project_b
+  intl: ^0.17.0
+
+#  tms_iam:
+#    git:
+#      url: https://github.com/gogovan/flutter-core-sdk/
+#      path: tms_iam
+#  local_storage:
+#    git:
+#      url: https://github.com/gogovan/flutter-core-sdk/
+#      path: local_storage
+#  util:
+#    git:
+#      url: https://github.com/gogovan/flutter-core-sdk/
+#      path: util
+
 
 dev_dependencies:
   flutter_test:

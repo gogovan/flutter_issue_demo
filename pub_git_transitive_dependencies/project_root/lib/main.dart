@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:project_a/project_a.dart';
-import 'package:project_b/project_b.dart';
 
 void main() {
   runApp(const MyApp());
@@ -59,8 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
       // so that the display can reflect the updated values. If we changed
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
-      _counter = CalculatorA().addOne(_counter);
-      _counter = CalculatorB().addTwo(_counter);
+      _counter++;
     });
   }
 
